@@ -2,6 +2,15 @@ prose:
   rooturl:
   media: media
   metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "default"
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
     _partners:
       - name: "layout"
         field:
