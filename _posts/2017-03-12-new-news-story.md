@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: New news story
 ---
 ## A New Post
