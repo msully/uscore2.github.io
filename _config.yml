@@ -16,26 +16,27 @@ collections:
     title: Uploads
     output: true
 defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "default"
-  - scope:
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: "contact-success.html"
-    values:
-      layout: "page"
-   - scope:
-        path: index.html
-      values:
-        layout: default
-   - scope:
-        path: contact.html
-      values:
-        full_width: true
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+- scope:
+    path: ''
+  values:
+    layout: page
+- scope:
+    path: city_partners
+  values:
+    layout: partners
+- scope:
+    path: index.html
+  values:
+    layout: default
+- scope:
+    path: contact.html
+  values:
+    full_width: true
 url: http://www.uscore2.eu
 baseurl: 
 google_analytics_key: "UA-92708806-1"
