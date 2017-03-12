@@ -6,7 +6,7 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
-          value: "default"
+          value: "post"
       - name: "title"
         field:
           element: "text"
