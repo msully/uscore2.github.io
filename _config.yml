@@ -16,28 +16,23 @@ collections:
     title: Uploads
     output: true
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "default"
-  -
-    scope:
+  - scope:
       type: "posts"
     values:
       layout: "post"
-  -
-    scope:
+  - scope:
       path: "contact-success.html"
     values:
       layout: "page"
-   -
-     scope:
+   - scope:
         path: index.html
       values:
         layout: default
-   - 
-    scope:
+   - scope:
         path: contact.html
       values:
         full_width: true
